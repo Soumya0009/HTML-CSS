@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    font-family: Ysabeau SC;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(images/Background-Img.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+.contain{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 80px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    width: 100%;
+    align-items: right;
+    padding-right: 30px;
+}
+ul li {
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    transition: text-decoration 0.5s;
+}
+ul li a:hover{
+    text-decoration: underline solid color(srgb 255 255 255);
+}
+.btn{
+    display: flex;
+    align-items: center;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background-color: rgba(233, 30, 99, 1);
+    color: white;
+    width: 130px;
+    padding: 10px 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(245, 245, 245, 0.5);
+    transition: filter 0.15s;
+}
+.btn:hover{
+    filter: brightness(80%);
+}
+.btn:active{
+    background-color: rgba(128, 128, 128, 0.582);
+}
+.btn img{
+    width: 25px;
+    margin-right: 2px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.heder{
+    color: white;
+    font-size: 40px;
+    padding: 10px 0;
+    margin-bottom: 0;
+    margin-top: 150px; 
+}
+.text{
+    color: white;
+    font-size: 16px;
+    width: 750px;
+    margin-top: 0;
+    padding:5px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 300px;
+    background-color: rgba(255, 255, 255, 0.2) ;
+}
+#data-input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 10px 5px;
+    margin-right: none;
+    border-right: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#data-input::placeholder{
+    color: rgb(133, 133, 133);
+}
+.btn1{
+    background-color: rgba(233, 30, 99, 1);
+    border: none;
+    color: white;
+    padding: 11px 10px;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 16px;
+}

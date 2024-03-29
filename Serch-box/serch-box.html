@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Serch Box</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Center the search box horizontally */
+            /* align-items: center; Center the search box vertically */
+            /* height: 100vh; Adjust height as needed */
+            font-family: Roboto, sans-serif; /* Use Roboto font */
+            background-color: #f9f9f9; /* Background color */
+        }
+       .serch-element{
+        display: flex;
+        align-items: center;
+        /* font-family: roboto; */
+        margin-top: 30px;
+        
+       }
+       .serch{
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #cccccc;
+        border-right: none;
+        width: 250px;
+        outline: none;
+        font-size: 16px;
+       }
+       .serch-btn{
+        border-left: none;
+        border: 1px solid #cccccc;
+        background-color: rgb(247, 247, 247);
+        padding: 5.5px;
+        padding-left: 15px ;
+        padding-right: 15px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+        }
+        .serch-btn:hover{
+        background-color: rgb(240, 240, 240);
+        }
+        .serch::placeholder{
+           color: #969696;
+        }
+        .serch-btn:active{
+            background-color: rgb(235, 235, 235);
+        }
+       .material-symbols-outlined{
+        margin: none;
+        padding: none;
+       }
+    </style>
+</head>
+<body>
+   <div class="serch-element">
+
+    <input type="text" class="serch" placeholder="Search">
+    <button class="serch-btn">
+        <span class="material-symbols-outlined">
+        search
+        </span>
+    </button>
+   </div>
+</body>
+</html>

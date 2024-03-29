@@ -1,0 +1,15 @@
+ display: grid;
+ grid-template-columns: 100px 100px 200px;
+
+ * The first value 100px is for first column, and the 2nd value is for second column, third vale is for third column.
+ * We can set vale randomly.
+
+display: grid;
+grid-template-columns: 100px 1fr;
+
+* Here fr stands for 'Free space', it means thet 2nd div will take the entair space.
+
+display: grid;
+grid-template-columns: 100px 1fr 1fr;
+
+* There are 2 fr values which mens 1fr and another 1fr div will take equal amount of space.

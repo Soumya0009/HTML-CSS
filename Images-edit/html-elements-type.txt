@@ -1,0 +1,4 @@
+* Html contains 3 types of elements.
+    1. Block elements (It takes up the entair line).
+    2. Inline-block element (Only takes up as much space as needed).
+    3. Inline element (Appear with in a line of text).
